@@ -1,0 +1,19 @@
+# Circa September 2008
+
+This is just a little bit more useful / advanced version of my
+previous `JavaBot'.
+
+After experiencing Bucket in the #xkcd, I decided it would be
+nice to offer some sort of interactive abilities with the bot,
+wherein you could ask a question and the bot would reply with
+a reasonable anwser.
+
+Bucket utilized a thing called `Factoid' files. Basically just
+associative lists. So! I implemented them in this, as well.
+
+Note, though, that unlike Bucket, there is no support for
+interactively adding new Factoids to the definition list. You
+have to manually add them and restart the bot for changes to
+take affect.
+
+MIT License, Josh Sandlin <dydx@thenullbyte.org>
